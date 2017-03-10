@@ -30,6 +30,7 @@ public class Car implements Serializable {
 
 
 	public int getNumber() {
+		System.out.println("get all ");
 		return number;
 	}
 
